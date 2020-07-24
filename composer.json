@@ -1,0 +1,14 @@
+{
+    "require": {
+        
+    },
+    "autoload":{
+        "psr-4":{
+            "Classes\\Dns\\": "Classes/Dns",
+            "Classes\\Traits\\": "Classes/Traits"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
