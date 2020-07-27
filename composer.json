@@ -4,8 +4,9 @@
     },
     "autoload":{
         "psr-4":{
-            "Classes\\Dns\\": "Classes/Dns",
-            "Classes\\Traits\\": "Classes/Traits"
+            "DnsTools\\Dns\\": "Classes/Dns",
+            "DnsTools\\Traits\\": "Classes/Traits",
+            "DnsTools\\Helpers\\": "Classes/Helpers"
         }
     },
     "require-dev": {

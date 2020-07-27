@@ -1,0 +1,21 @@
+TO DO:
+
+1- Sanitizar o domínio;
+2- Helper de domínio (transformar em métodos na classe domain);
+    - domínio existe e está apontado
+    - ssl
+3- Renomear namespaces e remover o Vardumper;
+4- Documentar a classe domínio;
+5- Classe dos registros Registros
+    - duas instâncias do contrutos (uma recebe Texto e outra uma class Domain)
+
+
+
+
+
+Métodos úteis:
+
+gethostbyaddr() - Obtém nome do host de Internet correspondendo ao endereçõ de IP fornecido.
+gethostbynamel() - Get a list of IPv4 addresses corresponding to a given Internet host name
+inet_pton() - Converts a human readable IP address to its packed in_addr representation
+inet_ntop() - Converts a packed internet address to a human readable representation
