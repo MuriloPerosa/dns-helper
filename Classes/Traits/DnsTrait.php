@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\Traits;
+namespace DnsTools\Traits;
 
 use Symfony\Component\VarDumper\VarDumper;
 

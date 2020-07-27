@@ -1,8 +1,8 @@
 <?php
 
-namespace Classes\Dns;
+namespace DnsTools\Dns;
 
-use Classes\Traits\DnsTrait;
+use DnsTools\Traits\DnsTrait;
 use Symfony\Component\VarDumper\VarDumper;
 
 class Sufix

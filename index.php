@@ -1,13 +1,11 @@
 <?php
 
-use Classes\Dns\Domain;
+use DnsTools\Dns\Domain;
+use DnsTools\Helpers\TextHelper;
 use Symfony\Component\VarDumper\VarDumper;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$sufix_options = [];
-$domain = "brigadeiro.queimado.preto.com";
-$class = new Domain($domain, true);
-VarDumper::dump($class);
+var_dump(TextHelper::contains('Murdasdsailo', 'Mur'));
 
 // adcionar tratamentos
